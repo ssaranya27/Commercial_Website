@@ -134,7 +134,7 @@ index.html
 
 style.css
 
-/* Global Styles */
+
 * {
     margin: 0;
     padding: 0;
@@ -149,7 +149,7 @@ body {
     flex-direction: column;
 }
 
-/* Header */
+
 header {
     background-color: #0073e6;
     color: white;
@@ -161,7 +161,7 @@ header {
     z-index: 1000;
 }
 
-/* Navigation */
+
 nav ul {
     display: flex;
     justify-content: center;
@@ -185,7 +185,6 @@ nav ul li a:hover {
     color: #ffcc00;
 }
 
-/* Full Screen Sections */
 section {
     height: 100vh;
     display: flex;
@@ -196,14 +195,12 @@ section {
     padding: 20px;
 }
 
-/* Section Background Colors */
 #home { background-color: #e3f2fd; }
 #products { background-color: #fbe9e7; }
 #about { background-color: #e8f5e9; }
 #contact { background-color: #f3e5f5; }
 #account { background-color: #ede7f6; }
 
-/* Product Section */
 #products {
     display: flex;
     flex-wrap: wrap;
@@ -225,7 +222,6 @@ section {
     transform: scale(1.05);
 }
 
-/* User Account Buttons */
 button {
     padding: 10px 20px;
     background: #0073e6;
@@ -240,7 +236,6 @@ button:hover {
     background: #005bb5;
 }
 
-/* Footer */
 footer {
     background: #333;
     color: white;
@@ -261,7 +256,6 @@ footer a:hover {
     text-decoration: underline;
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
     nav ul {
         flex-direction: column;
@@ -284,7 +278,7 @@ footer a:hover {
 
 ![alt text](<Screenshot (85).png>)
 
-![alt text](<Screenshot (86).png>)
+
 
 ## RESULT
 The program for creating commercial website using CSS Flexbox is executed successfully.
